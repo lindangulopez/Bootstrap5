@@ -1,0 +1,28 @@
+{
+  "name": "bootstrap5",
+  "version": "1.0.0",
+  "description": "DEMO",
+  "main": "index.html",
+  "scripts": {
+    "dev": "parcel ./src/index.html",
+    "prebuild": "npx rimraf build",
+    "build": "parcel build --public-url ./ ./src/index.html --experimental-scope-hoisting --out-dir build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lindangulopez/Bootstrap5.git"
+  },
+  "author": "Linda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lindangulopez/Bootstrap5/issues"
+  },
+  "homepage": "https://github.com/lindangulopez/Bootstrap5#readme",
+  "dependencies": {
+    "@popperjs/core": "^2.9.2",
+    "bootstrap": "^5.0.2"
+  },
+  "devDependencies": {
+    "sass": "^1.35.2"
+  }
+}
