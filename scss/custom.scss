@@ -1,20 +1,12 @@
 $blue:    #0d6efd;
-$indigo:  #6610f2;
-$purple:  #6f42c1;
-$pink:    #d63384;
-$red:     #dc3545;
-$orange:  #fd7e14;
-$yellow:  #ffc107;
-$green:   #198754;
-$teal:    #20c997;
-$cyan:    #0dcaf0;
-$black: #071227;
+$black: #040f22;
 $white: #e5e8ee;
 $grey:    #37414e;
-$bluelight:    #90bcff;
+$bluelight:#129ce65f;
 
 
-$body-bg: $black; 
+$thumbnail-bg:$white;
+$body-bg: $black;
 $body-color: $white;
 $primary:$blue;
 
@@ -51,10 +43,11 @@ $dot-color: $white;
 
 .card-body {
 background-color: $grey;
+color: $bluelight;
 }
 
 .card-body p {
-color: $bluelight;
+color: $white;
 }
 
 .email {
@@ -64,13 +57,6 @@ color: $bluelight;
 
 }
 
-// Custom.scss
-// Option A: Include all of Bootstrap
-
-// Include any default variable overrides here (though functions won't be available)
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 
-// Then add additional custom code here
-
-// stylelint-disable value-keyword-case
