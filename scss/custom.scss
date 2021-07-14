@@ -8,10 +8,26 @@ $yellow:  #ffc107;
 $green:   #198754;
 $teal:    #20c997;
 $cyan:    #0dcaf0;
-$black: rgb(25, 25, 25);
-$white: rgb(225, 225, 225);
+$black: rgb(22, 22, 22);
+$white: rgb(233, 233, 233);
 
-$body-bg: $white;
+$body-bg: $black; 
+$body-color: $white;
+$primary:$blue;
+
+$font-family-sans-serif: 'Poppins', sans-serif;
+
+@media (min-width: 992px){
+.navbar-expand-lg .navbar-nav .nav-link {
+	padding-right: 1.5rem;
+	padding-left: 1.5rem;
+    }
+}
+
+
+.navbar-collapse {
+justify-content: flex-end;
+}
 // Custom.scss
 // Option A: Include all of Bootstrap
 
@@ -21,5 +37,4 @@ $body-bg: $white;
 
 // Then add additional custom code here
 
-
-
+// stylelint-disable value-keyword-case
