@@ -1,2 +1,4 @@
 # Bootstrap5
-npm, Parcel
+built with npm & Parcel
+
+- Simple Template & Site Architeure
