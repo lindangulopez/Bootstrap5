@@ -8,14 +8,21 @@ $yellow:  #ffc107;
 $green:   #198754;
 $teal:    #20c997;
 $cyan:    #0dcaf0;
-$black: rgb(22, 22, 22);
-$white: rgb(233, 233, 233);
+$black: #071227;
+$white: #e5e8ee;
+$grey:    #37414e;
+$bluelight:    #90bcff;
+
 
 $body-bg: $black; 
 $body-color: $white;
 $primary:$blue;
 
 $font-family-sans-serif: 'Poppins', sans-serif;
+
+.navbar-collapse {
+justify-content: flex-end;
+}
 
 @media (min-width: 992px){
 .navbar-expand-lg .navbar-nav .nav-link {
@@ -24,10 +31,39 @@ $font-family-sans-serif: 'Poppins', sans-serif;
     }
 }
 
+// Dimensions & colour for custombg
+$dot-size: 1px;
+$dot-space: 30px;
+$bg-color: $blue;
+$dot-color: $white;
 
-.navbar-collapse {
-justify-content: flex-end;
+.custombg {
+	background:
+		linear-gradient(90deg, $bg-color ($dot-space - $dot-size), transparent 1%) center,
+		linear-gradient($bg-color ($dot-space - $dot-size), transparent 1%) center,
+		$dot-color;
+	background-size: $dot-space $dot-space;
 }
+
+.card {
+	border: none;
+}
+
+.card-body {
+background-color: $grey;
+}
+
+.card-body p {
+color: $bluelight;
+}
+
+.email {
+	color: $blue;
+	text-decoration: none;
+
+
+}
+
 // Custom.scss
 // Option A: Include all of Bootstrap
 
