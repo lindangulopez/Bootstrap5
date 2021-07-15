@@ -184,7 +184,7 @@ function reloadCSS() {
 }
 
 module.exports = reloadCSS;
-},{"./bundle-url":"../../../.nvm/versions/node/v14.4.0/lib/node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"../scss/custom.scss":[function(require,module,exports) {
+},{"./bundle-url":"../../../.nvm/versions/node/v14.4.0/lib/node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"../scss/custom2.scss":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
@@ -394,4 +394,4 @@ function hmrAcceptRun(bundle, id) {
   }
 }
 },{}]},{},["../../../.nvm/versions/node/v14.4.0/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js"], null)
-//# sourceMappingURL=/custom.18d3a4a7.js.map
+//# sourceMappingURL=/custom2.97c12e94.js.map

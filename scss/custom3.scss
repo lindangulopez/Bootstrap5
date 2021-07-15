@@ -1,0 +1,62 @@
+$blue:    #94aa8f;
+$black: #070707e7;
+$white: #baceb9;
+$grey:    #0c0c0ca6;
+$bluelight:#bfebae5f;
+
+
+$thumbnail-bg:$white;
+$body-bg: $black;
+$body-color: $white;
+$primary:$blue;
+
+$font-family-sans-serif: 'Poppins', sans-serif;
+
+.navbar-collapse {
+justify-content: flex-end;
+}
+
+@media (min-width: 992px){
+.navbar-expand-lg .navbar-nav .nav-link {
+	padding-right: 1.5rem;
+	padding-left: 1.5rem;
+    }
+}
+
+// Dimensions & colour for custombg
+$dot-size: 1px;
+$dot-space: 30px;
+$bg-color: $blue;
+$dot-color: $white;
+
+.custombg {
+	background:
+		linear-gradient(90deg, $bg-color ($dot-space - $dot-size), transparent 1%) center,
+		linear-gradient($bg-color ($dot-space - $dot-size), transparent 1%) center,
+		$dot-color;
+	background-size: $dot-space $dot-space;
+}
+
+.card {
+	border: none;
+}
+
+.card-body {
+background-color: $grey;
+color: $bluelight;
+}
+
+.card-body p {
+color: $white;
+}
+
+.email {
+	color: $blue;
+	text-decoration: none;
+
+
+}
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
