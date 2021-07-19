@@ -32,3 +32,6 @@ In this folder there is a [long version of my internship report](https://gitlab.
 		2eadb19 i18next
 		34715f9 Update Stage.md
 		522cca3 Nextjs-blog
+		
+Hostname 	gitlab.cri.ensmp.fr
+IP Address 	37.169.57.167 
